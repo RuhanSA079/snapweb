@@ -806,6 +806,7 @@ function show() {
         } else {
             play();
         }
+        show();
     };
 
     for (let group of snapcontrol.server.groups) {
